@@ -6,10 +6,12 @@ const SPIN_DURATION_MS = 4200;
 
 export default function Home() {
   const [participants, setParticipants] = useState([
-    "Alex",
-    "Jordan",
-    "Priya",
-    "Mateo",
+    "Julie",
+    "Jim",
+    "John",
+    "Jane",
+    "Callum",
+    "Jeremy",
   ]);
   const [nameInput, setNameInput] = useState("");
   const [rotation, setRotation] = useState(0);
@@ -219,10 +221,10 @@ export default function Home() {
         <section className="flex flex-col items-center justify-center gap-6 rounded-2xl bg-slate-950/95 p-4 text-white sm:p-8">
           <div className="text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.28em] text-amber-300">
-              Meeting Chair Spinner
+              Academy Delivery Team
             </p>
             <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-4xl">
-              Who leads this meeting?
+              Academy Delivery Team Meeting
             </h1>
           </div>
 
