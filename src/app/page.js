@@ -246,11 +246,11 @@ export default function Home() {
                     <div
                       key={name}
                       className="absolute left-1/2 top-1/2 flex h-1/2 w-0 -translate-x-1/2 origin-top items-start justify-center pt-[28%]"
-                      style={{ transform: `rotate(${angle}deg)` }}
+                      style={{ transform: `rotate(${angle - 180}deg)` }}
                     >
                       <span
                         className="max-w-[120px] rounded-full bg-black/35 px-3 py-1 text-center text-xs font-semibold uppercase tracking-wide text-white shadow-lg sm:text-sm"
-                        style={{ transform: `rotate(${-angle}deg)` }}
+                        style={{ transform: `rotate(${180 - angle}deg)` }}
                       >
                         {name}
                       </span>
