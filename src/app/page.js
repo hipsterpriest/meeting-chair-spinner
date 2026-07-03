@@ -245,7 +245,7 @@ export default function Home() {
                   return (
                     <div
                       key={name}
-                      className="absolute left-1/2 top-1/2 flex h-1/2 w-0 -translate-x-1/2 origin-top items-start justify-center pt-4"
+                      className="absolute left-1/2 top-1/2 flex h-1/2 w-0 -translate-x-1/2 origin-top items-start justify-center pt-[28%]"
                       style={{ transform: `rotate(${angle}deg)` }}
                     >
                       <span
